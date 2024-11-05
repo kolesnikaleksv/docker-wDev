@@ -36,6 +36,7 @@
 
 `docker run --name <container name> -p 3001:3000 <image name>` - запустить контейнер с именем "container name", на основании образа "image name", в контейнере открыть порт 3001
 `docker run --name <container name> -p 3001:3000 <image name> -v <local path>:<container path>` - запустить контейнер с именем "container name", на основании образа "image name", в контейнере открыть порт 3001 и добавить том
+`docker run --name test2 -p 3002:3000 --rm -v C:\Users\Oleksandr\Desktop\my_professional_development\docker_webDev\api\:/app/ -v app/node_modules server-app:nodemon` - my case, we bind all files but node_modules
 
 ---
 
