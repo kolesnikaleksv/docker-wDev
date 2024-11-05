@@ -1,7 +1,7 @@
 export const db = [
   {
     title: 'Pulp Fiction',
-    director: 'Quentin Tarantino test2',
+    director: 'Quentin Tarantino',
     year: 1994,
     genres: ['crime', 'drama'],
     rating: 8.9,
